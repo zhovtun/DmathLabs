@@ -41,7 +41,7 @@ public class MyArray
     */
     private String[] buildArray (String str) {
         int i =0, j=0, k=0;
-        String a = "a";
+        String a = "0";
         String[] ch = str.split("");
         String[] array = new String[ch.length];
         String[] result;
@@ -49,7 +49,7 @@ public class MyArray
         sort(ch);
 
         while (i < ch.length) {
-            if (a.compareTo(ch[i])>-26 && a.compareTo(ch[i])<1) {
+            if (a.compareTo(ch[i])>-72 && a.compareTo(ch[i])<1) {
                 array[j] = ch[i];
                 j++;
                 i++;
