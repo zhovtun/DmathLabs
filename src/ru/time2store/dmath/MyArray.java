@@ -204,7 +204,7 @@ public class MyArray
         String result = " ";
         reset(arr3);
 
-        if (aIsSubsetB() == "Множество А  является  подмножеством В") {
+        if (aIsSubsetB() == "Множество А является подмножеством В") {
             result = "Результат объединения A \u22C3 B - множество С = " + printArray(arr2);
         }
         else {
