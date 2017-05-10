@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DmathLabs:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DmathLabs_jar</output-path>
+    <root id="archive" name="DmathLabs.jar">
+      <element id="module-output" name="DmathLabs" />
+    </root>
+  </artifact>
+</component>
